@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.Testrunner1
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 30.42 s <<< FAILURE! -- in TestRunner.Testrunner1
+Functional testing of login page of paraBank.Verify the login feature of parabank happypath All Fields #1 -- Time elapsed: 11.19 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.usernamelink" is null
+	at pageObjects.LoginPage.loginchecks(LoginPage.java:27)
+	at stepDefinitions.LoginSteps.i_check_the_customer_login_links_and_buttons(LoginSteps.java:17)
+	at ✽.I check the customer login links and buttons(file:///C:/Users/VIGNESWARAN/Documents/Projects/Selenium+Java/ParaBank/src/test/java/features/Login.feature:9)
+
+Functional testing of login page of paraBank.Verify the login feature of parabank happypath All Fields #2 -- Time elapsed: 4.401 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "this.usernamelink" is null
+	at pageObjects.LoginPage.loginchecks(LoginPage.java:27)
+	at stepDefinitions.LoginSteps.i_check_the_customer_login_links_and_buttons(LoginSteps.java:17)
+	at ✽.I check the customer login links and buttons(file:///C:/Users/VIGNESWARAN/Documents/Projects/Selenium+Java/ParaBank/src/test/java/features/Login.feature:9)
+
